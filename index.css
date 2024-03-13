@@ -6,6 +6,9 @@ body{
 header{
     color:white;
     background-color: rgb(65, 3, 65);
+    width:100%;
+    height:10%;
+    display:flex;
     
 }
 
@@ -14,16 +17,19 @@ header{
     text-align: center;
     margin-left: 35%;
     font-size:50px;
-    height:100px
-    height:100px;
+    height:50px;
+    margin-top:-5%;
+    
 
 }
 .header__image{
     width: 5%;
     height: 5%;
+    border-radius: 20%;
 }
 main{
-    color:white
+    color:white;
+    margin-left:10%;
 }
 .Main__content{
     display: flex;
@@ -33,11 +39,16 @@ margin-top:5%;
 font-size:30px;
 font-family: Arial, Helvetica, sans-serif;
 }
+.aside{
+    align-items: center;
+    margin-left:20%;
+
+}
 .aside__image{
     width:500px;
     height:500px;
-    margin-top:-25%;
-    margin-left: 70%;
+    margin-top:-33%;
+    margin-left: 40%;
     border-radius: 15px;
    
 }
@@ -46,7 +57,7 @@ footer{
   left: 0;
   bottom: 0;
   width: 100%;
-  height:10%;
+  height:5%;
   background-color: rgb(65, 3, 65);
   color:white;
   text-align: center;
