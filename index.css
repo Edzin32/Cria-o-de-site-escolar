@@ -3,8 +3,10 @@
 :root{
     --cor-primaria:black;
     --cor-secundaria:#732472;
-    --cor-terciaria:#d27ace
-  
+    --cor-terciaria:#d27ace;
+
+    --fonte:"Truculenta", sans-serif;
+    --fonte2:"Poppins", sans-serif;
 
 }
 *{
@@ -34,7 +36,7 @@ padding:1px;
     margin-left: 35%;
     font-size: 50px;
     color: var(--cor-secundaria);
-    font-family:"Truculenta", sans-serif;
+    font-family:var(--fonte)
    
 }
 
@@ -70,7 +72,7 @@ padding:1px;
     margin-top:10%;
     margin-left:10%;
     font-size: 20px;
-    font-family:"Poppins", sans-serif;;
+    font-family:var(--fonte2)
    
 }
 
