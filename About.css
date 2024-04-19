@@ -19,9 +19,6 @@ body{
     width:100%;
     height:100%;
 }
-a{
-
-}
 .header{
    
     width:100%;
@@ -58,12 +55,7 @@ padding:1px;
    border-radius: 20px;
     border:2px solid rgb(31, 0, 102);
     color:var(--cor-secundaria);
-    font-family: Arial;
     
-}
-.menu__link:hover{
-    background-color: #d27ace;
-    color:black
 }
 
 .Main{
