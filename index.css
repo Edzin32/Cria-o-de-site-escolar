@@ -62,8 +62,8 @@ padding:1px;
     
 }
 .menu__link:hover{
-    background-color: #d27ace;
-    color:black
+    background-color:var(--cor-terciaria);
+    color:var(--cor-primaria)
 }
 
 .Main{
@@ -88,7 +88,7 @@ padding:1px;
     width:50%;
     height:50%;
     margin-left:60%;
-    margin-top:-20%;
+    margin-top:-23%;
     border:2px rgb(31, 0, 102);
     
    
