@@ -4,7 +4,7 @@
     --cor-primaria:black;
     --cor-secundaria:#732472;
     --cor-terciaria:#d27ace;
-
+    --branco:white;
     --fonte:"Truculenta", sans-serif;
     --fonte2:"Poppins", sans-serif;
 
@@ -62,6 +62,21 @@ padding:1px;
     
 }
 .menu__link:hover{
+    background-color:var(--cor-terciaria);
+    color:var(--cor-primaria)
+}
+.menu__link_use{
+    margin-bottom: 10px;
+    
+    padding:30px;
+   border-radius: 20px;
+    border:2px solid rgb(31, 0, 102);
+    color:var(--branco);
+    font-family: Arial;
+    background-color: var(--cor-secundaria);
+    
+}
+.menu__link_use:hover{
     background-color:var(--cor-terciaria);
     color:var(--cor-primaria)
 }
