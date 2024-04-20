@@ -71,7 +71,7 @@ padding:1px;
     padding:30px;
    border-radius: 20px;
     border:2px solid rgb(31, 0, 102);
-    color:var(--branco);
+    color:var(--cor-primaria);
     font-family: Arial;
     background-color: var(--cor-secundaria);
     
